@@ -24,6 +24,6 @@ public class Bicycle {
     }
 
     public void speedUp(int increment) {
-        this.speed += increment
+        this.speed += increment;
     }
 }
