@@ -1,4 +1,4 @@
-package org.example.poo.polymorphism;
+package org.example.basics.oopBasics.polymorphism;
 
 public class PaypalProcessor implements PaymentProcessor {
     private String email;

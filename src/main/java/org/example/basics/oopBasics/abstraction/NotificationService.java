@@ -1,4 +1,4 @@
-package org.example.poo.abstraction;
+package org.example.basics.oopBasics.abstraction;
 
 public class NotificationService {
     public void notify(Notification notification) {

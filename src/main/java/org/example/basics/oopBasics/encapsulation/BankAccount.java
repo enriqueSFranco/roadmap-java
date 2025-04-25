@@ -1,4 +1,4 @@
-package org.example.poo.encapsulation;
+package org.example.basics.oopBasics.encapsulation;
 
 /**
  🧠 ¿Qué es la Programación Orientada a Objetos?

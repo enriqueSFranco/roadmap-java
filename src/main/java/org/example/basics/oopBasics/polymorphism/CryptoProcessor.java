@@ -1,4 +1,4 @@
-package org.example.poo.polymorphism;
+package org.example.basics.oopBasics.polymorphism;
 
 public class CryptoProcessor implements PaymentProcessor {
     private String walletAddress;

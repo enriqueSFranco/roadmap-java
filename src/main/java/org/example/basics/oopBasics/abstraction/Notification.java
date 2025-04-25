@@ -1,4 +1,4 @@
-package org.example.poo.abstraction;
+package org.example.basics.oopBasics.abstraction;
 
 //Consejos y Mejores Prácticas
 //Use Clases Abstractas para la Implementación Parcial: Cuando tenga una clase base con algún comportamiento
