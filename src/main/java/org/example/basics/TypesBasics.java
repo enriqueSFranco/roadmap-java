@@ -1,7 +1,7 @@
-package org.example.types;
+package org.example.basics;
 
 // Tipos de datos primitivos en Java:
-public class BasicTypes {
+public class TypesBasics {
     // --- Numeric types ---
     private byte byteValue = 100; // -128 a 127
     private short shortValue = 10000; // -32.768 a 32.767
