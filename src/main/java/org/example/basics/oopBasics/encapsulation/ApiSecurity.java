@@ -1,4 +1,4 @@
-package org.example.poo.encapsulation;
+package org.example.basics.oopBasics.encapsulation;
 
 class User {
     private String name;

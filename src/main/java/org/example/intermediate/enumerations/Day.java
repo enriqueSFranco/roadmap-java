@@ -1,4 +1,4 @@
-package org.example.types.enumerations;
+package org.example.intermediate.enumerations;
 
 //Los enums en Java son un tipo de datos especial que permite que una variable sea un conjunto de constantes predefinidas.
 // Se utilizan para definir una colección de constantes que se conocen en el momento de la compilación,

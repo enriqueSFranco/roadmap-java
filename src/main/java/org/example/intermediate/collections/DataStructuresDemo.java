@@ -1,4 +1,4 @@
-package org.example.types;
+package org.example.intermediate.collections;
 
 import java.util.*;
 

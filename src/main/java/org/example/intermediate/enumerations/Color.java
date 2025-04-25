@@ -1,4 +1,4 @@
-package org.example.types.enumerations;
+package org.example.intermediate.enumerations;
 
 public enum Color {
     RED("#FF0000"),

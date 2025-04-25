@@ -1,8 +1,8 @@
-package org.example.types;
+package org.example.basics;
 
 import java.util.Arrays;
 
-public class ArraysDemo {
+public class ArraysBasics {
     private int[] oneDimArray = {1,2,3,4,5};
     private int[][] twoDimArray = {
             {1,2,3,4},
