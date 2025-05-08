@@ -1,15 +1,15 @@
 package org.example;
 
-import org.example.poo.abstraction.EmailNotification;
-import org.example.poo.abstraction.Notification;
-import org.example.poo.abstraction.NotificationService;
-import org.example.poo.abstraction.SmsNotification;
-import org.example.poo.inheritance.Truck;
-import org.example.poo.inheritance.Vehicle;
-import org.example.poo.polymorphism.*;
-import org.example.types.enumerations.Day;
-import org.example.types.enumerations.Operation;
-import org.example.types.enumerations.TrafficLight;
+import org.example.basics.oopBasics.abstraction.EmailNotification;
+import org.example.basics.oopBasics.abstraction.Notification;
+import org.example.basics.oopBasics.abstraction.NotificationService;
+import org.example.basics.oopBasics.abstraction.SmsNotification;
+import org.example.basics.oopBasics.inheritance.Truck;
+import org.example.basics.oopBasics.inheritance.Vehicle;
+import org.example.basics.oopBasics.polymorphism.*;
+import org.example.intermediate.enumerations.Day;
+import org.example.intermediate.enumerations.Operation;
+import org.example.intermediate.enumerations.TrafficLight;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
