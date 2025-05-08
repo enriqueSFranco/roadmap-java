@@ -3,57 +3,64 @@ package org.example.basics;
 // Tipos de datos primitivos en Java:
 public class TypesBasics {
     // --- Numeric types ---
-    private byte byteValue = 100; // -128 a 127
-    private short shortValue = 10000; // -32.768 a 32.767
-    private int intValue = 100000;
-    private long longValue = 100000L;
+    byte byteValue = 100; // -128 a 127
+    short shortValue = 10000; // -32.768 a 32.767
+    int intValue = 100000;
+    long longValue = 100000L;
 
     // --- Floating-point types ---
-    private double doubleValue = 123.4;
-    private float floatValue = 234.5f;
+    double doubleValue = 123.4;
+    float floatValue = 234.5f;
 
     // --- Other primitives ---
-    private boolean booleanValue = true;
+    boolean booleanValue = true;
 
-    private char charValue = 'A';
+    char charValue = 'A';
+
+    // --- Constants ---
+    final String EMAIL = "kirito@gmail.com";
+
+    // --- Tipo de dato en tiempo de compilación ---
+    String color = "black";
+    String typeofColor = color.getClass().getSimpleName(); // <-- solo aplica a clases
 
     // Public getters in case other components need access (e.g., for testing)
-    public byte getByteValue() {
+    byte getByteValue() {
         return byteValue;
     }
 
-    public short getShortValue() {
+    short getShortValue() {
         return shortValue;
     }
 
-    public int getIntValue() {
+    int getIntValue() {
         return intValue;
     }
 
-    public long getLongValue() {
+    long getLongValue() {
         return longValue;
     }
 
-    public float getFloatValue() {
+    float getFloatValue() {
         return floatValue;
     }
 
-    public double getDoubleValue() {
+    double getDoubleValue() {
         return doubleValue;
     }
 
-    public boolean isBooleanValue() {
+    boolean isBooleanValue() {
         return booleanValue;
     }
 
-    public char getCharValue() {
+    char getCharValue() {
         return charValue;
     }
 
     /**
      * Returns a formatted string representing all primitive values.
      */
-    public String describeAll() {
+    String describeAll() {
         StringBuilder sb = new StringBuilder();
         sb.append("Primitive Types Summary:\n");
         sb.append(String.format("byte:    %d%n", byteValue));
@@ -67,7 +74,7 @@ public class TypesBasics {
         return sb.toString();
     }
 
-    public void printAll() {
+    void printAll() {
         System.out.println(describeAll());
     }
 }
