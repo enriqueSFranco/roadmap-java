@@ -30,21 +30,21 @@ public class Conditionals {
 
         // 🧩 Coincidencia de patrones en switch
         var obj = 10;
-        switch (obj) {
-            case Integer i -> System.out.println("Es un entero: " + i);
-            case String s -> System.out.println("Es un string: " + s);
-            default -> System.out.println("Tipo de dato desconocido");
-        }
+//        switch (obj) {
+//            case Integer i -> System.out.println("Es un entero: " + i);
+//            case String s -> System.out.println("Es un string: " + s);
+//            default -> System.out.println("Tipo de dato desconocido");
+//        }
 
-        final var DIRECTION = "WEST";
-        switch (DIRECTION) {
-            case "NORTH" -> 0;
-            case "SOUTH" -> 180;
-            case "EAST" -> 90;
-            case "WEST" -> {
-                System.out.println("Go west!");
-                yield 270;
-            }
-        }
+//        final var DIRECTION = "WEST";
+//        switch (DIRECTION) {
+//            case "NORTH" -> 0;
+//            case "SOUTH" -> 180;
+//            case "EAST" -> 90;
+//            case "WEST" -> {
+//                System.out.println("Go west!");
+//                yield 270;
+//            }
+//        }
     }
 }
