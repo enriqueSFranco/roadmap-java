@@ -1,6 +1,10 @@
 package org.example.intermediate.enumerations;
 
-public enum Operation {
+interface IOperation {
+    double apply(int x, int y);
+}
+
+public enum CalculatorOperations implements IOperation {
     SUM {
         public double apply(int x, int y) { return (double) x + y; }
     },
@@ -31,5 +35,5 @@ public enum Operation {
         }
     };
 
-    public abstract double apply(int x, int y);
+    //public abstract double apply(int x, int y);
 }

@@ -31,8 +31,9 @@ package org.example.intermediate.functionalProgramming;
  */
 
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
 class Car {
     private String model;

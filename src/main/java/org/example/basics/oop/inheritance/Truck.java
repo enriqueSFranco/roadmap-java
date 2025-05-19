@@ -1,4 +1,4 @@
-package org.example.basics.oopBasics.inheritance;
+package org.example.basics.oop.inheritance;
 
 public class Truck extends Vehicle {
     private double cargoCapacity;

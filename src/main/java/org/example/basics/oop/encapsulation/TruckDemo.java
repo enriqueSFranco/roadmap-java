@@ -1,4 +1,4 @@
-package org.example.basics.oopBasics.encapsulation;
+package org.example.basics.oop.encapsulation;
 
 import java.util.ArrayList;
 import java.util.Collections;
