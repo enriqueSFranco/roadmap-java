@@ -1,4 +1,4 @@
-package org.example.basics.oopBasics.inheritance;
+package org.example.basics.oop.inheritance;
 
 // 2. 👨🏻-👴🏻 Herencia (reutilizar código)
 //Permite que una clase herede atributos y métodos de otra. Es como decir: "Un coche es un tipo de vehículo".

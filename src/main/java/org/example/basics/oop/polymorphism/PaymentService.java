@@ -1,4 +1,4 @@
-package org.example.basics.oopBasics.polymorphism;
+package org.example.basics.oop.polymorphism;
 
 public class PaymentService {
     public void executePayment(PaymentProcessor processor, double amount) {

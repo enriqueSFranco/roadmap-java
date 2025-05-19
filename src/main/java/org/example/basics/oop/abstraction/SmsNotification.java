@@ -1,4 +1,4 @@
-package org.example.basics.oopBasics.abstraction;
+package org.example.basics.oop.abstraction;
 
 public class SmsNotification extends Notification {
 

@@ -1,4 +1,4 @@
-package org.example.basics.oopBasics.polymorphism;
+package org.example.basics.oop.polymorphism;
 
 //3. Polimorfismo (una acción, diferentes formas)
 //Significa que una misma acción se comporta distinto según el objeto que la ejecuta.

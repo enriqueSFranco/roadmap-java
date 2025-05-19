@@ -1,4 +1,4 @@
-package org.example.basics.oopBasics.abstraction;
+package org.example.basics.oop.abstraction;
 
 //Consejos y Mejores Prácticas
 //Use Clases Abstractas para la Implementación Parcial: Cuando tenga una clase base con algún comportamiento
@@ -21,7 +21,7 @@ public abstract class Notification {
     protected String message;
 
     public Notification(String recipient, String message) {
-        if (this.recipient == null || this.message == null)
+        if (recipient == null || message == null)
             throw new IllegalArgumentException("Recipient and message cannot be null.");
         this.recipient = recipient;
         this.message = message;

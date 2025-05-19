@@ -1,4 +1,4 @@
-package org.example.basics.oopBasics.abstractClass;
+package org.example.basics.oop.abstractClass;
 
 public abstract class DatabaseOperation {
     protected void connect() {
